@@ -1,5 +1,13 @@
 # Currencies Collection Showroom Backend
 
+## Intro
+
+- A system for currency collectors to document their collection process & publish their collection to public.
+- A collector can categorize currencies by...
+  - Which country / currency zone it belong to.
+  - What type of currency piece (Banknote / coin).
+ - A collector can track what have been collected out of total targeted pieces.
+
 ## Models
 
 - Country
