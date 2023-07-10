@@ -1,14 +1,22 @@
 # Currencies Collection Showroom Backend
 
-## Intro
+Strapi-Based Backend Of Currencies Collection Showroom
 
-- A system for currency collectors to document their collection process & publish their collection to public.
-- A collector can categorize currencies by...
-  - Which country / currency zone it belong to.
-  - What type of currency piece (Banknote / coin).
- - A collector can track what have been collected out of total targeted pieces.
+## Backend To-Do Tasks
 
-## Models
+- Build model count with filter APIs
+- Build model createMany & updateMany APIs
+- Build dedicated all stats & APIs
+
+## How to start development
+
+- Fork repo to own Github account
+- Clnoe new repo to local machine
+- Cd to root directory
+- Run CLI command of... yarn
+- Run CLI command of... yarn develop
+
+### Models
 
 - Country
   - name
@@ -20,7 +28,6 @@
   - code
   - mostRecentEdition
 - ExchangeRate
-  - code
   - valuePerUsd
 - CurrencyEdition
   - order
@@ -34,13 +41,6 @@
   - date
   - count
 
-## APIs To Add
+## How to deploy & start using as a collector
 
-- Model Count with Filters
-- Model CreateMany & UpdateMany APIs
-- All Stats APIs
-
-## Future Works
-
-- Platform for several users
-  - Model CRUD mine APIs
+If you are not a web developer (coder / programmer), we are still working to provide you with an easy approach to build your own showroom. If you are a developer, everything is ready for deployment. Just deploy to whatever service you see fit (like Vercel, Netlify, Heroku).
