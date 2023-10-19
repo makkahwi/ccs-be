@@ -12,22 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "frontPhoto": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "backPhoto": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "date": {
       "type": "date"
     },

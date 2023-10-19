@@ -16,6 +16,20 @@
       "type": "decimal",
       "required": true
     },
+    "frontPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "backPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
     "type": {
       "type": "enumeration",
       "enum": [
