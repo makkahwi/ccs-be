@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "code": {
-      "type": "string",
-      "required": true
-    },
     "valuePerUsd": {
       "type": "decimal",
       "required": true
